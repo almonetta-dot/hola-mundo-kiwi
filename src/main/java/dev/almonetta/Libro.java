@@ -1,5 +1,5 @@
 package dev.almonetta;
-
+//no se considero el precio del libro ni el tiempo que toma leerlo, a demas no se define la el total de paginas.
 public class Libro {
     //atributos
     String titulo;

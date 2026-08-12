@@ -1,5 +1,6 @@
 package dev.almonetta;
-//no se uso el tiempo de paga del prestamos ni la recepcion del dinero
+//no se uso el tiempo de paga del prestamos ni la recepcion del dinero ya que son factores
+//no tomados en cuenta
 
 public class Prestamo {
     String fechaprestamo;
@@ -10,8 +11,6 @@ public class Prestamo {
     public Prestamo(String fechaprestamo, int montoprestamo, float tasapresio, int cuotas){
 
     }
-
-
 
     public boolean solicitar(){
         return true;
