@@ -1,12 +1,12 @@
 package dev.almonetta;
-
+//no se decidio usar el tamaño y no se definio el objeto ya que se deja a critero del usuario
 public class Producto {
     String color;
     String forma;
-    int tamano;
     String categoria;
+    int precio;
 
-    public Producto (String color, String forma, int tamano, String categoria){
+    public Producto (String color, String forma, int precio, String categoria){
 
     }
 
@@ -18,7 +18,7 @@ public class Producto {
 
 
     public double precioProducto(){
-        return 0;
+        return this.precio;
     }
 
 
