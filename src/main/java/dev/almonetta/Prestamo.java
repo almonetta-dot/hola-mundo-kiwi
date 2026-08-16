@@ -15,11 +15,7 @@ public class Prestamo {
     public boolean solicitar(){
         return true;
     }
-
-    public int pagarcuota(int cuotas){
-        return 0;
-    }
-
+    public int pagarcuota(int cuotas){return 0;}
     public boolean terminarprestamo(){
         return true;
     }

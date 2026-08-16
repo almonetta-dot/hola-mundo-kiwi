@@ -10,13 +10,8 @@ public class Producto {
 
     }
 
-    public boolean decisionComprar(){
-        return true;
-    }
-
+    public boolean DecisionCompra(){return true;}
     public void tipoObjeto(){System.out.println("Escribe el objeto seleccionado");}
-
-
     public double precioProducto(){
         return this.precio;
     }
